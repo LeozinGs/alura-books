@@ -1,0 +1,45 @@
+.novidades {
+    background-color: var(--cor-branco);
+    color: var(--cor-azul);
+    padding: 1em;
+}
+
+.novidades__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.novidades__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.novidades__cadastro {
+    background-color: transparent;
+    border: 1px solid var(--cor-azul);
+    color: var(--cor-azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: -webkit-fill-available;
+}
+
+.novidades__cadastro::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 3em;
+    color: var(--cor-azul);
+    background: url(../assets/Email.svg) no-repeat;
+    background-position: 1em;
+}
+
+.novidades__submit {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-branco);
+    background-color: var(--laranja);
+    padding: 1em 2em;
+    border-radius: 24px;
+    margin-top: 1em;
+    border: none;
+}
