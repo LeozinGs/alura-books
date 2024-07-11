@@ -24,7 +24,7 @@
 
     .rodape {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 2em;
         
     }
@@ -47,7 +47,5 @@
         color: var(--cor-cinza2);
         margin: 0 .5em;
     }
-
-
 
 }
