@@ -103,4 +103,13 @@
         display: none;
     }
 
+    .opcoes__botao {
+        display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
 }
