@@ -25,7 +25,8 @@
     .rodape {
         display: flex;
         justify-content: space-between;
-        padding: 3em;
+        padding: 2em;
+        
     }
 
     .rodape__lista__titulo{
