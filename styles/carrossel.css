@@ -101,3 +101,41 @@
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__titulo {
+        font-size: 32px;
+        padding: 2em 0 1em 0;
+    }
+   
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+    }
+
+    .swiper {
+        width: 40%;
+        padding: 2em 2em;
+    }
+
+    .card {
+        width: 35%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__livro {
+        font-size: 18px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+        padding: .5em 2em 0 0;
+    }
+
+    
+
+}

@@ -12,6 +12,10 @@
     display: none;
 }
 
+.vl {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .rodape__container {
@@ -46,6 +50,19 @@
         text-decoration: none;
         color: var(--cor-cinza2);
         margin: 0 .5em;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .rodape__titulo {
+        padding: 0 0 0 5em;
+    }
+    
+    .vl {
+        display: block;
+        border-left: 1px solid var(--cor-cinza);
     }
 
 }

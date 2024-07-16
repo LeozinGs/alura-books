@@ -65,6 +65,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .container__titulo,.container__titulo--negrito {
@@ -112,4 +116,25 @@
         width: auto;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__texto {
+        display: block;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preta);
+        font-size: 20px;
+        padding: 0 1em;
+    }
+
+    .opcoes {
+        margin: auto auto auto 3em;
+        font-size: 16px;
+    }
 }
