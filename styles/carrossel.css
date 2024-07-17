@@ -1,3 +1,4 @@
+
 .carrossel__titulo {
     font-size: 18px;
     font-weight: 700;
@@ -12,7 +13,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev, 
+.swiper-button-next {
     display: none;
 }
 
@@ -120,7 +122,7 @@
     }
 
     .card {
-        width: 35%;
+        width: 30%;
     }
 
     .descricao__titulo {
@@ -136,6 +138,8 @@
         padding: .5em 2em 0 0;
     }
 
-    
+    .swiper-pagination {
+        margin: 1em 0;
+    }
 
 }

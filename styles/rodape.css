@@ -60,9 +60,9 @@
         padding: 0 0 0 5em;
     }
     
-    .vl {
-        display: block;
+    .rodape__container {
         border-left: 1px solid var(--cor-cinza);
+        padding: 0 1em;
     }
 
 }
