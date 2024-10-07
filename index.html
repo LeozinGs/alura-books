@@ -13,17 +13,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>AluraBooks</title>
+
+    <script defer src="./script.js"></script>
 </head>
 
 <body>
 
     <header class="cabecalho">
         <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" class="container__rotulo">
-                <span class="cabecalho__menu-hamburguer container__imagem"></span>
-            </label>
+            <div class="menu-and-logo">
+                <span class="material-symbols-outlined menu-burger"
+                    style="font-size: 40px; width: 100%; height: 100%;">menu</span>
+                <img class="container__imagem" src="./assets/Logo.svg" alt="Logo AluraBooks">
+            </div>
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
@@ -32,23 +37,23 @@
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
             </ul>
-            <img class="container__imagem" src="./assets/Logo.svg" alt="Logo AluraBooks">
-            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+            <div class="logo-container">
+                <img class="container__imagem" src="./assets/Logo.svg" alt="Logo AluraBooks">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+            </div>
         </div>
 
         <ul class="opcoes">
-            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-            <label for="opcoes-menu" class="opcoes__rotulo">
-                <li class="opcoes__item">Categorias</li>
-            </label>
-
-            <ul class="lista-menu">
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-end</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
-                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
-            </ul>
+            <li class="opcoes__item dropdown-menu">
+                Categorias
+                <ul class="lista-menu-desktop">
+                    <li class="lista-menu-desktop__item"><a href="#" class="lista-menu__link">Programação</a></li>
+                    <li class="lista-menu-desktop__item"><a href="#" class="lista-menu__link">Front-end</a></li>
+                    <li class="lista-menu-desktop__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                    <li class="lista-menu-desktop__item"><a href="#" class="lista-menu__link">Business</a></li>
+                    <li class="lista-menu-desktop__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+                </ul>
+            </li>
 
             <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
             <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
